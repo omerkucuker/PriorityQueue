@@ -1,16 +1,16 @@
 # PriorityQueue
 
-**1-) Programın ana amacı :** <br/>
-Secilen Musteriler.txt dosyasındaki müşterileri öncelik sırasına göre kuyruğa eklenmesi hedeflenmiştir. <br/>
-**2-)Yapılanlar:**  <br/>
-Form ekranında bulunan **Dosya Oku butonu** musteriler.txt dosyasını okuyup, müşteriler listesi jlist e eklemektedir. (1 numaralı liste).  <br/>
-**Musteri Cagir butonu =** kuyrukta bulunan ilk müşteriyi dequeue yapan (kuyruktan çıkaran) ve 2 numaralı listeye her çağırılan müşteriyi ekleyen buton.  <br/>
-**Toplam Sure butonu =** tüm müşteriler çağırıldıktan sonra kuyrukta eleman kalmadığında geçen toplam süreyi 3 numaralı listeye yazdıran buton.  <br/>
-**Toplam Fatura butonu =** tüm müşteriler çağırıldıktan sonra kuyrukta eleman kalmadığında ödeme yapılan toplam fatura miktarını 3 numaralı listeye yazdıran buton. <br/>
- **Oncelik Gir butonu =** yanında bulanan textfield’ a girilen öncelik değerine sahip tüm müşterileri ve her müşterinin kuyrukta kaçıncı müşteri olarak hizmet aldığını (kuyruktan çıkarıldığı) 3 numaralı listeye yazdıran buton. <br/>
-**Oncelik toplam sure butonu =** yanında bulanan textfield’ a girilen öncelik değerine sahip tüm müşterilere ait toplam süreyi 3 numaralı listeye yazdıran buton. <br/>
-**Fatura Gir butonu =** yanında bulanan textfield’ a girilen fatura türüne ait tüm müşterileri 3 numaralı listeye yazdıran buton. <br/>
-Programda hata kontrolü yapılmış olup, butonlara harici işlem yapılmak istendiğinde uyarı mesajı verilmektedir. Örneğin Oncelik Gir Butonuna 1 ve 5 harici farklı bir girdi olduğunda ekrana 1 ve 5 arasında değer girmesine dair uyarı vermektedir. <br/>
+**1-) The main purpose of the program is:** <br/>
+It is aimed to add the customers in the Selected Customers.txt file to the queue in order of priority. <br/>
+** 2-) What has been done:**  <br/>
+The Read File button on the form screen reads the customer.txt file and adds the customers list to the jlist. (list number 1).<br/>
+** Call Customer button = **  button that dequeue (removes) the first customer in the queue and adds every called customer to list #2.<br/>
+** Total Time button = ** button that prints the total time elapsed when there is no staff left in the queue after all customers are called to the list number 3.<br/>
+** Total Invoice button = ** button that prints the total invoice amount paid on the 3rd list when there is no staff left in the queue after all customers are called.<br/>
+** Enter Priority button = ** button that prints all customers with the priority value entered in the textfield next to it and the number 3 list where each customer receives service in the queue (removed from the queue).<br/>
+** Priority total time button = ** button that prints the total time of all customers with the priority value entered in the textfield next to it on the 3rd list.<br/>
+** Enter Invoice button = ** the button that prints all customers belonging to the invoice type entered in the textfield next to it to the 3 list.<br/>
+Error control has been made in the program, and a warning message is given when an external operation is desired to the buttons. For example, when there is a different input other than 1 and 5 on the Priority Enter Button, it warns that a value between 1 and 5 should be entered on the screen. <br/>
 
 **3-) Screenhots:** <br/> 
 
